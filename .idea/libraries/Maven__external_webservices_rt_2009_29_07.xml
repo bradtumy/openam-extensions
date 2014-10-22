@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: external:webservices-rt:2009-29-07">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/external/webservices-rt/2009-29-07/webservices-rt-2009-29-07.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/external/webservices-rt/2009-29-07/webservices-rt-2009-29-07-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/external/webservices-rt/2009-29-07/webservices-rt-2009-29-07-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

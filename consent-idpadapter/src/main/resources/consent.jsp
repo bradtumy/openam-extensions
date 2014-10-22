@@ -49,7 +49,7 @@
                 identity.store();
                 response.sendRedirect(new String(Base64.decode(request.getParameter("goto"))));
             } catch (Exception ex) {
-                out.println("An error occured");
+                out.println("An error occurred");
                 ex.printStackTrace();
             }
             return;
@@ -88,7 +88,7 @@
                 if (attrs == null || attrs.isEmpty()) {
                     out.println("Do you want to share your account information with " + request.getAttribute("spEntityID"));
                 } else {
-                    out.println("Are you sure you want to share the following informations with " + request.getAttribute("spEntityID") + "?");
+                    out.println("Are you sure you want to share the following information with " + request.getAttribute("spEntityID") + "?");
                     out.println("<ul>");
                     for (Attribute attr : attrs) {
                         out.println("<li>" + attr.getName() + ":<ul>");
